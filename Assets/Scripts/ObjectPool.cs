@@ -65,6 +65,7 @@ public class ObjectPool : MonoBehaviour
         }
     }
 
+    // ENCAPSULATION
     public GameObject GetEnemy(int enemyType) {
         GameObject enemy = null;
         List<GameObject> enemyList = null;
@@ -101,6 +102,7 @@ public class ObjectPool : MonoBehaviour
         return enemy;
     }
 
+    // ENCAPSULATION
     public GameObject GetCannonball() {
         // find inactive cannonball
         int i = 0;
@@ -110,6 +112,7 @@ public class ObjectPool : MonoBehaviour
         return pooledCannonball[i];
     }
 
+    // ENCAPSULATION
     public GameObject GetPowerup(int type) {
         GameObject powerup = null;
         List<GameObject> powerupList = null;

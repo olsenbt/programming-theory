@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JumpMonster : Monster
+public class JumpMonster : Monster // INHERITANCE
 {
     public float jumpDelay = 2.0f;
     public float jumpForce = 2.0f;
